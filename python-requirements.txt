@@ -1,0 +1,24 @@
+pandas
+matplotlib
+
+torch
+torchvision
+
+pytorch-lightning
+torchmetrics
+lightning-bolts 
+wandb
+
+timm
+transformers
+diffusers
+accelerate
+safetensors
+huggingface_hub
+
+opencv-python
+scikit-image
+scikit-learn
+
+CLIP @ git+https://github.com/openai/CLIP.git
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
