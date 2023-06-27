@@ -2,7 +2,7 @@ if [[ "$EUID" = 0 ]];
  then 
   apt-get update
   apt-get  install nano
-  chmod 400 ~/.ssh/runpod_id_rsa
+  chmod 400 /home/rmukul/.ssh/runpod_id_rsa
 fi
 
 
@@ -20,4 +20,3 @@ ssh-add /home/rmukul/.ssh/runpod_id_rsa
 
 git config --global user.email "reetesh.mukul@gmail.com"
 git config --global user.name "Reetesh Mukul"
- 
