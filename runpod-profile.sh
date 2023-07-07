@@ -49,3 +49,5 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+
+export XDG_CACHE_HOME=/workspace/.cache
