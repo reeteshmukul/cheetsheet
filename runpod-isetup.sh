@@ -4,6 +4,8 @@ if [[ "$EUID" = 0 ]];
   apt-get  install nano
   apt-get install git-lfs
   chmod 400 /home/rmukul/.ssh/runpod_id_rsa
+  mkdir  /workspace/.cache
+  chmod a+rwx /workspace/.cache
 fi
 
 
