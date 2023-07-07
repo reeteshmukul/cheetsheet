@@ -2,6 +2,7 @@ if [[ "$EUID" = 0 ]];
  then 
   apt-get update
   apt-get  install nano
+  apt-get install git-lfs
   chmod 400 /home/rmukul/.ssh/runpod_id_rsa
 fi
 
